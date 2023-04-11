@@ -15,3 +15,4 @@ expo start
 for apple users, download the expo go app and scan the qr code in the terminal using your camera app
 
 for samsung users, download the expo go app and scan the qr code in the terminal using the app
+
