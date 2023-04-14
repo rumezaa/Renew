@@ -11,7 +11,7 @@ const InfoModal = ({ setModal, modal, business }) => {
         style={{ backgroundColor: "#000000aa" }}
       >
         <View className="bg-white rounded-md w-3/4 flex items-center p-4 gap-y-4">
-          <Text className="text-lg font-bold">About {business.name}</Text>
+          <Text className="text-lg font-bold">About {business.name}  </Text>
           <Ionicons name="md-flower-outline" size={15} color="#FFAF66" />
 
           <View className="flex flex-col my-2 items-center text-center">

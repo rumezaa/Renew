@@ -22,7 +22,7 @@ export default function DeliveryScreen({
             className={`${
               (deliveryType == delivery && "text-white") || "text-black"
             } text-center font-semibold`}
-            style={{ fontSize: 16 }}
+            style={{ fontSize: 15, fontWeight: 400 }}
           >
             {(deliveryType == "local pickup" && "Pickup") || "Local Delivery"}
           </Text>
@@ -53,8 +53,7 @@ export default function DeliveryScreen({
               className="text-xl font-bold text-cherry
       "
             >
-              Next
-            </Text>
+              Next   </Text>
             <AntDesign name="arrowright" size={30} color="#D8473D" />
           </View>
         </TouchableOpacity>

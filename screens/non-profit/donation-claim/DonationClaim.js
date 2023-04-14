@@ -190,10 +190,10 @@ export default function DonationClaim({ route }) {
                   )}
                 </View>
                 <View className="flex flex-col px-5 gap-y-4">
-                  <Text className="font-bold text-lg text-center">
+                  <Text className="font-bold text-center px-3">
                     You've secured a donation from {business.name}!
                   </Text>
-                  <Text className="text-center px-6">
+                  <Text className="text-center px-6 text-xs font-light" style={{fontWeight: 300, fontSize: 10}}>
                     Please make sure you are available for {delivery} on{" "}
                     {formatSelected()}. Check your notification and messages for
                     updates from Goodwill

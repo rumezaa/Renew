@@ -117,12 +117,10 @@ export default function DatesScreen({
         <View className="w-full flex items-center justify-center">
           {(selectedTime && (
             <Text className="text-center font-bold">
-              You've selected {formatSelected()}
-            </Text>
+              You've selected {formatSelected()} </Text>
           )) || (
             <Text className="">
-              Available Times (tap on a time to select it)
-            </Text>
+              Available Times (tap on a time to select it)  </Text>
           )}
 
           <FlatList

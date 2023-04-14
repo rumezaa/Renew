@@ -166,6 +166,7 @@ const BrowseScreen = ({ route }) => {
                 <Text
                   style={{
                     fontSize: 16,
+                    fontWeight: 400
                   }}
                   className="text-white"
                 >

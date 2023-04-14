@@ -62,7 +62,7 @@ export default function AccountViewScreen({ route }) {
             />
           </View>
         )}
-        <Text className="text-lg font-bold">{business?.name}</Text>
+        <Text className="text-lg font-bold">{business?.name}  </Text>
       </View>
 
       <View className="flex flex-row w-full items-center gap-x-5 justify-center mt-5">
@@ -78,7 +78,7 @@ export default function AccountViewScreen({ route }) {
               borderStyle: "solid",
             }}
           >
-            <Text>Info</Text>
+            <Text className="font-light">Info </Text>
           </View>
         </TouchableOpacity>
 
@@ -94,7 +94,7 @@ export default function AccountViewScreen({ route }) {
               borderStyle: "solid",
             }}
           >
-            <Text>Contact</Text>
+            <Text className="font-light">Contact</Text>
           </View>
         </TouchableOpacity>
 

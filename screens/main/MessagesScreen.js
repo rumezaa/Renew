@@ -75,12 +75,11 @@ export default function MessagesScreen() {
                 <View>
                   <Text style={{fontWeight: 400}} className="text-gray-400 uppercase tracking-tight">
                     latest message   </Text>
-                  <Text className="text-black" style={{ fontSize: 18 }}>
+                  <Text className="text-black" style={{ fontSize: 14, fontWeight: 400 }}>
                     {(item.latestMessage.content.length > 25 &&
                       item.latestMessage.content.substring(0, 25 - 3) +
                         "...") ||
-                      item.latestMessage.content}
-                  </Text>
+                      item.latestMessage.content}   </Text>
                 </View>
               </TouchableOpacity>
             )}
