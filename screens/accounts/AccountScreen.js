@@ -78,7 +78,7 @@ export default function AccountScreen() {
         email: email,
         number: number,
         location: location,
-        profilePic: await handleImage(),
+        profilePic: await handleImage() || "",
       };
   
       const userRef = doc(db, "users", user.id);
