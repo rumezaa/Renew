@@ -16,3 +16,4 @@ for apple users, download the expo go app and scan the qr code in the terminal u
 
 for samsung users, download the expo go app and scan the qr code in the terminal using the app
 
+# Renew
