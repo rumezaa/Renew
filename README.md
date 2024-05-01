@@ -1,4 +1,6 @@
 # Renew
+pitch video: https://youtu.be/yRwB9hq0kuQ
+demo: https://youtu.be/Qiv7s6PP1yE
 
 ## Setup
 ensure that react native expo is installed
