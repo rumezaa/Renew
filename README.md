@@ -1,6 +1,9 @@
 # Renew
 pitch video: https://youtu.be/yRwB9hq0kuQ
+
 demo: https://youtu.be/Qiv7s6PP1yE
+
+business plan :3 https://drive.google.com/file/d/1Gax_ufzoxFZFPidcb58AGp1aJl0Kw3uU/view?usp=sharing
 
 ## Setup
 ensure that react native expo is installed
